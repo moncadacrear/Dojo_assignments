@@ -1,0 +1,261 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 function arr()\{\
+   var x = []\
+  for (var i = 1; i<= 255; i ++)\{\
+     x.push(i);\
+  \}\
+  return x\
+\}\
+console.log(arr())\
+\
+\
+\
+\
+\
+\
+\
+function evensum()\{\
+  var sum = 0;\
+  for (var i = 0; i<= 1000; i ++)\{\
+    if (i%2 == 0)\{\
+      sum = sum + i;\
+    \}\
+    \
+  \}\
+  return sum\
+\}\
+console.log(evensum())\
+\
+\
+\
+\
+\
+\
+\
+function oddsum()\{\
+  var sum = 0;\
+  for (var i = 1; i<= 5000; i ++)\{\
+    if (i%2 == 1)\{\
+      sum = sum + i;\
+    \}\
+    \
+  \}\
+  return sum\
+\}\
+console.log(oddsum())\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+function sumarry(arr)\{\
+  var sum = 0\
+  for ( var i = 0 ; i < arr.length; i++)\{\
+    sum = sum + arr[i]\
+  \}\
+  return sum;\
+\}\
+\
+var y = sumarry([-5,2,5,12])\
+\
+console.log(y)\
+\
+\
+\
+\
+\
+\
+\
+\
+function findmax(arr)\{\
+  var max = arr[0]\
+  for ( var i = 0 ; i < arr.length; i++)\{\
+    if (max < arr[i])\{\
+      max = arr[i];\
+    \}\
+  \}\
+  return max ;\
+\}\
+\
+var y = findmax([-5,2,5,12])\
+\
+console.log(y)\
+\
+\
+\
+\
+\
+\
+\
+\
+function findavg(arr)\{\
+  var sum = 0;\
+  for ( var i = 0 ; i < arr.length; i++)\{\
+      sum = sum + arr[i]\
+    \
+  \}\
+  return sum/arr.length ;\
+\}\
+\
+var y = findavg([1,3,5,7,20])\
+\
+console.log(y)\
+\
+\
+\
+\
+\
+\
+\
+\
+function oddarray()\{\
+  var oddarray = []\
+  for ( var i = 1 ; i <= 50; i++)\{\
+     if(i%2 == 1)\{\
+       oddarray.push(i);\
+     \}\
+    \
+  \}\
+  return  oddarray;\
+\}\
+\
+var y = oddarray()\
+\
+console.log(y)\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+function greater(arr, y)\{\
+  var count = 0;\
+  for (var i = 0; i < arr.length; i++)\{\
+    if (arr[i] > y)\{\
+      count ++\
+    \}\
+  \}\
+  return count\
+\}\
+\
+console.log(greater([1, 3, 5, 7],3))\
+\
+\
+\
+\
+\
+\
+\
+\
+function negArr(arr)\{\
+  for ( var i = 0; i < arr.length; i++ )\{\
+    if (arr[i] < 0)\{\
+      arr[i] = 0;\
+    \}\
+  \}\
+  return arr\
+\}\
+console.log(negArr([1,5,10,-2]))\
+\
+\
+\
+\
+\
+\
+\
+\
+function minmaxavg(arr)\{\
+  var max = arr[0];\
+  var min = arr[0];\
+  var sum = 0;\
+  for( var i = 0 ; i < arr.length; i++)\{\
+    if ( max < arr[i])\{\
+      max = arr[i];\
+    \}\
+    if ( min > arr[i])\{\
+      min = arr[i];\
+    \}\
+    sum = sum + arr[i];\
+  \}\
+  var avg = sum/arr.length;\
+  var all = [avg, min, max]\
+  return all\
+\}\
+\
+console.log(minmaxavg([1,5,10,-2]))\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+function swap(arr)\{\
+  var temp = arr[0];\
+  arr[0] = arr[arr.length - 1]\
+  arr[arr.length - 1] = temp\
+  return arr\
+\}\
+\
+console.log(swap([22,1,23,4,1,1]))\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+function negArr(arr)\{\
+  for ( var i = 0; i < arr.length; i++ )\{\
+    if (arr[i] < 0)\{\
+      arr[i] = 0\
+    \}\
+  \}\
+  return arr\
+\}\
+console.log(negArr([1,5,10,-2]))\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+function negArr(arr)\{\
+  for ( var i = 0; i < arr.length; i++ )\{\
+    if (arr[i] < 0)\{\
+      arr[i] = "dojo";\
+    \}\
+  \}\
+  return arr\
+\}\
+console.log(negArr([-1,-3,2]))\
+}

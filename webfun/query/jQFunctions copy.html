@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Bootstrap!!!!!!!!</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // your jquery codes here
+        $(".top button").click(function(){
+            $('.top p').css("color","red");
+        });
+
+        $(".hide_ button").click(function(){
+            $('.hide_ p').hide();
+        });
+
+        $(".show_ button").click(function(){
+            $('.hide_ p').show("hello there");
+        });
+
+        $(".toggle_ button").click(function(){
+            $('.hide_ p').hide();
+        });
+    });
+ </script>
+</head>
+<body>
+    <div class="header pb-secondary">
+        <h4 class="text-center bg-secondary pb-5 pt-2" style=" margin-bottom:-10px ;margin-top:0px"> my bootstrap!!!!!!!!!</h4>
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary">
+        
+        <div class="form-row align-items-center">
+            <button type="button" class="d-inline-block btn btn-default btn-lg ml-5 mr-3 ">
+                <span class="glyphicon glyphicon-arrow-left"></span>
+            </button>
+            <button type="button" class="btn btn-default btn-lg d-inline mr-3">
+                <span class="glyphicon glyphicon-arrow-right"></span>
+            </button>
+            <button type="button" class="btn btn-default btn-lg d-inline mr-3">
+                <span class="glyphicon glyphicon-remove"></span>
+            </button>
+            <button type="button" class="btn btn-default btn-lg d-inline mr-3 ">
+                <span class="glyphicon glyphicon-home"></span>
+            </button>
+            
+            <input class="ml-50"  type=url value="...">
+            <input class="pull-right  "  type="text" value="...">
+    </nav>
+    </div>
+    
+
+    <div class="container">
+        <div class="top jumbotron">
+            <h1>Add A Class</h1>
+            <p class="lead "  >This is a paragraph ... duhh.</p>
+            <button class="primary">click for red</button>
+           
+        </div>
+        <div class="row">
+            <div class="hide_ col-md-4 ">
+                <h2>Hide me</h2>
+                <p>I'm a dirty little paragraph.</p>
+                <button>click to hide</button>
+                
+            </div>
+            <div class="show_ col-md-4  ">
+                <h2>Show it</h2>
+                <p></p>
+                <button>click to show</button>
+                <p></p>
+            </div>
+            <div class="col-md-4  ">
+                <h2>Toggle</h2>
+                <p>more stuff.</p>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>You are awesome!</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <a href="#" class="text-dark">Terms of Endearment</a> 
+                    <span class="text-muted mx-2">|</span> 
+                    <a href="#" class="text-dark">You have no Privacy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+  
+
+    <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

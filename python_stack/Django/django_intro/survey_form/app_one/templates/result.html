@@ -1,0 +1,58 @@
+<<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <style>
+            .container{
+                width: 400px;
+                height: 400px;
+                margin: auto;
+                background-color: rgb(172,216,231);
+            }
+            h3{
+                text-decoration: underline;
+            }
+            .name , .location, .comments, .langauge {
+                display: flex;
+                justify-content: space-between;
+                
+                text-align: center;
+            }
+
+            /* #button{ */
+                
+            /* } */
+        </style>
+    </head>
+    <body>
+        <div class = container>
+            {% csrf_token %}
+            <h3>submitted info</h3>
+            <div class = name>
+                <p>name :</p>
+                <p>{{name_template}}</p>
+            </div>
+            <div class = location>
+                <p>location:</p>
+                <p>{{location_template}}</p>
+            </div>
+            <div class = langauge>
+                <p>favorite language:</p>
+                <p>{{langauge_template}}</p>
+            </div>
+            <div class = comments>
+                <p>comments:</p>
+                <p>{{comments_template}}</p>
+            </div>
+
+                <a  id = "button" class="btn btn-primary" href="/" role="button">GO back</a>
+            </div>
+    </body>
+</html>

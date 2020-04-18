@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href=""> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <style>
+            .container{
+                width: 500px ;
+                height: 500px ;
+                background-color : rgb(22,162,185) ;
+                margin: auto;
+            }
+
+            .location , .languages, .name {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px;
+            }
+            select{
+                width: 200px;
+                height: 20px;
+
+            }
+            textarea{
+                width: 400px;
+                height: 80px;
+            }
+            button{
+                margin-left: 300px;
+            }
+
+
+        </style>
+
+
+    </head>
+    <body>
+        <div class = "container">
+            <form action='/results' method='POST'>
+                {% csrf_token %}
+                <h1>Please submit Your information correctly</h1>
+                <div class =name >
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name">
+                </div>
+                <div class = "location">
+                    <label for="dojo-locations">Dojo location:</label>
+                    <select name="dojo-locations">
+                        <option value="boise">boise</option>
+                        <option value="seattle">seattle</option>
+                        <option value="Los angeles">Los angeles</option>
+                        <option value="Dallas">Dallas</option>
+                        <option value="Arlington">Arlington</option>
+                        <option value="chicago">chicago</option> 
+                    </select>
+                </div>
+                <div class = "languages">
+                    <label for="favorite-languages">Favorite language:</label>
+                    <select name ="favorite-languages">
+                        <option value="mean">mean</option>
+                        <option value="c#">c#</option>
+                        <option value="python">python</option>
+                        <option value="javascript">javascript</option>
+                    </select>
+                </div>
+                <div class = comments>
+                    <p>comment (optional):</p>
+                    <textarea name="description"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Button to submit</button>
+            </form>
+        </div>
+    </body>
+</html>

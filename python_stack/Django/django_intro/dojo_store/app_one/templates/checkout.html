@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href=""> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            /* * { outline: 1px dotted red; } */
+
+            .container{
+                width: 950px;
+                height: 700px;
+                margin: auto;
+                background-color:lavenderblush;
+                padding: 10px;
+
+            }
+            .ordered{
+                width: 490px;
+                height: 146px;
+                /* border-style: solid; */
+            }
+            .fruitname,.quantity{
+                width: 240px;
+                height: 140px;
+                display:inline-block;
+                border-style: solid;
+                /* float: left; */
+                
+            }
+            h6{
+                background-color: lightgray;
+            }
+            .info {
+                width: 500px;
+                height: 200px;
+                margin-top: 100px;
+                /* background-color: lightgray; */
+                
+            }
+            .info h4{
+                text-decoration: underline;
+            }
+            .name, .id{
+                width: 400px;
+                height: 50px;
+                display: flex;
+                justify-content: space-between;
+            }
+            .name p, .id p{
+                display:inline-block;
+                
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class = "container">
+            {% csrf_token %}
+            <h1>Thank you for your order  </h1>
+            <h5>we ordered {{total}} items for you and charged your student account {{studentID}} on {{time}} </h5>
+            <div class ="ordered">
+                <h4>You've ordered</h4>
+                <div class = "fruitname">
+                    <h6>Fruit Name</h6>
+                    <p>Stawberry</p>
+                    <p>Raspberry</p>
+                    <p>Apple</p>
+                </div>
+                <div class= "quantity">
+                    <h6>Quanitiy</h6>
+                    <p>{{quantone}}</p>
+                    <p>{{quanttwo}}</p>
+                    <p>{{quantthree}}</p>
+                </div>
+            </div>
+            <div class = info>
+                <h4>Your information</h4>
+                <div class = "name">
+                    <p>Name:</p>
+                    <p>{{firstn}}</p>
+                </div>
+                <div class = "id">
+                    <p>Your Student ID:</p>
+                    <p>{{studentID}}</p>
+                </div>
+            </div>
+            <a  id = "button" class="btn btn-primary" href="/" role="button">Go back</a>
+        </div>
+    </body>
+</html>

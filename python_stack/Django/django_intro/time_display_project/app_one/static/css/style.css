@@ -1,0 +1,32 @@
+.container{
+    height: 950px;
+    width: 950px;
+    margin: auto;
+    background-color: lavenderblush;
+
+}
+
+p{
+    width: 200px;
+    height: 40px;
+    display: block;
+    background-color: lightgrey;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-style: solid;
+    padding: 10px;
+    
+}
+
+h1{
+    width: 500px;
+    height: 100px;
+    background-color: lightseagreen;
+    display:block;
+    text-align: center;
+    margin: auto;
+    border-style: outset;
+    padding: 10px;
+}

@@ -1,0 +1,217 @@
+* { outline: 1px dotted red; }
+
+
+body{
+    background-color: black;
+}
+.container{
+    min-height: 950px;
+    width: 950px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
+.header{
+    min-height: 10px;
+    width: 950px;
+    margin-bottom: 10px;
+    display: inline-block; 
+    border-radius: 20px;
+    padding: 0px;
+    background-color: rgb(242,242,242);
+}
+
+.menuacc, .topmenu{
+    width: 50px;
+    min-height: 60px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    border-radius: 10px;
+    background-color: rgb(242,242,242);
+}  
+
+.topmenu {
+    padding: 0px 18px;
+} 
+
+.header a {
+   text-decoration: none;
+   font-size: 15px;
+   color: black;
+}
+
+
+.arrow{
+    display: inline-block;
+    text-align: right;
+    
+   
+}
+
+.search-img, .arrow{
+  border-radius: 0px 11px 11px 0px; 
+  
+}
+
+.jumbodisplay{
+     width: 950px;
+     height: 460px;
+     border-radius: 20px;
+ }
+.mainpicture img{
+    width: 950px;
+    height: 400px;
+}
+
+.displaymiddle-links{
+    width: 950px;
+    height: 50px;
+    background-color: rgb(74,74,74);
+    border-radius: 0px 0px 5px 5px;
+    
+}
+
+.blue{
+    display: inline-block;
+    color: rgb(124,171,192);
+    padding: 11px;
+    background-color: rgb(74,74,74);
+    
+
+}
+
+.blue, .differentcolor{
+    text-decoration: none;
+}
+
+
+.differentcolor {
+    color: white;
+    margin-top: 5px;
+    display: inline-block;
+    background-color: rgb(74,74,74);
+    margin-bottom: 5px;
+    padding-left: 5px;
+    
+}
+.browsestore{
+    min-height: 100px;
+    width: 950px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+
+}
+
+
+.browsestore p , .browsestore h1{
+    display: inline-block;
+   
+}
+.browsestore p{
+    margin-top: 0px;
+    margin-bottom: 0px ;
+}
+
+.browsestore h1{
+    width: 550px;
+    color: rgb(189,189,189);
+    font-size: 34px;
+}
+
+button{
+    width: 330px;
+    min-height: 40px;
+    border-radius:5px ;
+    background-color: rgb(74,129,167); 
+    color: white;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+
+.store{
+    min-height: 500px;
+    background-color: rgb(242,242,242);
+
+}
+
+.items{
+    display: inline-block;
+    background-color:rgb(242,242,242);
+    width: 230px;
+    margin:2px;
+    min-height: 500px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.content, .items h3{
+    display: inline-block;
+    
+}
+
+.content img{
+    padding-top: 15px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+.displayproduct{
+    display: inline-block;
+    width: 200px;
+    min-height: 150px;
+}
+
+.click{
+    display: inline-block;
+    width: 150px;
+    margin:10px;
+    margin-top: 30px;
+}
+
+.tour{
+    width: 210px;
+    min-height: 120px;
+}
+
+.para{
+    margin-bottom: 30px;
+}
+.footer {
+    width: 950px;
+    min-height: 300px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.bottom-info{
+    width: 153px;
+    margin: 1px;
+    height: 300px;
+    background-color:white ;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.orderinfo p{
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0px;
+    margin: 0px 10px;
+    
+}
+
+    
+
+
+
+

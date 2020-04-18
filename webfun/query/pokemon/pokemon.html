@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+<head>
+    <source>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            
+
+        var pickme = $("img").click(function(){
+            $(this).show('.info');
+
+            $.get('https://pokeapi.co/api/v2/pokemon/ditto' + puc, function(res) {
+                
+            var name = $('name').val;
+            var icon = $('image').val;
+            var type = $('types').val;
+            var height = $('height').val;
+            var weight =  $('weight').val;
+
+                $('.name').html(res[species][name]);
+                $('.types').html(res[types][0][type][name]);
+                $('.height').html(res[height]);
+                $('.weight').html(res[weight]);
+                $('image').attr(src ,res [sprites][front_shiny])
+            })
+
+            $('.info').show();
+            $('.h1').html(res['name']);
+            $('.types').html(res['type']);
+            $('.height').html(res['height']);
+            $('.weight').html(res['weight']);    
+        });
+            
+
+        $('.info').hide()
+        $('.img').css('width','50px');
+        
+});
+    </script>
+</head>
+    <body>
+        <div class="container">
+            <div class="pokemonicons">
+                <h1>ITS THEM POKEMENS</h1>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/2.png">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/3.png">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/4.png">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/6.png">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/7.png">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/8.png">
+                
+
+            </div>
+
+            <div class="info">
+                <h1></h1>
+                <!-- <img src="(icon)" alt="pokemon_icon"> -->
+                <h4 class="types">Types</h4>
+                <h4 class="height">Height</h4>
+                <h4 class="weight">Weight</h4>
+                <!-- might need to create a <p> to push the variable into it -->
+            </div>
+
+        </div>
+    </body>

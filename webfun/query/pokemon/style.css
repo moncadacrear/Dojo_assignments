@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+
+   .container{
+        width: 500px;
+        height: 800px;
+        margin: 0px;
+        /* display: flex;
+        justify-content: space-evenly;
+        */
+   }
+   .pokemonicons{
+       width: 350px;
+       float: left;
+
+   }
+
+   .pokemonicons img{
+       width: 50px;
+   }
+
+    .info{
+        width: 150px;
+        float: right;
+    }

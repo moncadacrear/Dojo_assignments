@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>ALL the USERS</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>last name</th>
+                    <th>email</th>
+                    <th>Age</th>
+                    <th>sign up</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for x in  all_users_templates %}    
+                <tr>
+                        <td>{{x.id}}</td>
+                        <td>{{x.first_name }}</td>
+                        <td>{{x.last_name}}</td>
+                        <td>{{x.email_address}}</td>
+                        <td>{{x.age}}</td>
+                        <td>{{x.create_at}}</td>
+                    </tr>
+                {% endfor%}
+            </tbody>
+        </table>
+        <form action="/all_users" method="POST">
+            {% csrf_token %}
+            <h1>ADD a user</h1>
+            <label for="first_name">First Name:</label>
+            <input type="text" name="first_name"><br>
+            <label for="last_name">last Name:</label>
+            <input type="text" name="last_name"><br>
+            <label for="email_address">email address:</label>
+            <input type="text" name="email_address"><br>
+            <label for="age">Age:</label>
+            <input type="text" name="age"><br>
+            <button >CLICK ME TO Submit</button>
+        </form>
+    </body>
+</html>

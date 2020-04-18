@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>My jQuery basic assignment</title>
+    <script type = "text/javascript"" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script type = "text/javascript">
+  $(document).ready(function(){
+    alert (' Is this even working  ');
+    
+    // $("p").hide();   
+    
+    $( '.showbutton').click(function(){
+    $( '.showall' ).show( "slow" );
+
+ })
+    $( '.buttontoggle' ).click(function() {
+    $( '.togglethis' ).toggle( );
+});
+
+
+
+    
+   
+
+
+
+  });
+</script>
+
+</head>
+<body>
+    <div class="header pb-secondary">
+        <h4 class="text-center bg-secondary pb-5 pt-2" style=" margin-bottom:-10px ;margin-top:0px"> My jQuery basic assignment!</h4>
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary">
+        
+        <div class="form-row align-items-center">
+            <button type="button" class="d-inline-block btn btn-default btn-lg ml-5 mr-3 ">
+                <span class="glyphicon glyphicon-arrow-left"></span>
+            </button>
+            <button type="button" class="btn btn-default btn-lg d-inline mr-3">
+                <span class="glyphicon glyphicon-arrow-right"></span>
+            </button>
+            <button type="button" class="btn btn-default btn-lg d-inline mr-3">
+                <span class="glyphicon glyphicon-remove"></span>
+            </button>
+            <button type="button" class="btn btn-default btn-lg d-inline mr-3 ">
+                <span class="glyphicon glyphicon-home"></span>
+            </button>
+            
+            <input class="ml-50"  type=url value="ddd">
+            <input class="pull-right  "  type="text" value="hello">
+        </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Add A Class</h1>
+            <p class="lead">Click button to add class red to this paragraph.</p>
+            <!-- <a><a href="https://www.tutorialrepublic.com" target="_blank" class="btn btn-success btn-lg">Add Class</a></p> -->
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h2>HTML</h2>
+                <p>HTML is the standard markup language for describing the structure of the web pages. Our HTML tutorials will help you to understand the basics of latest HTML5 language, so that you can create your own web pages or website.</p>
+                <!-- <a><a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p> -->
+            </div>
+            <div class="col-md-4">
+                <h2>CSS</h2>
+                <button class = 'showbutton'>button</button>
+                <p style="display: none" class ='showall'> Como estas it means how are you, i think? </p>
+            </div>
+            <div class="col-md-4">
+                <h2>Bootstrap</h2>
+                <p>Hola</p>
+                <p style="display: none" class = 'togglethis'>Is anyone reading this ?</p>
+                <button class = 'buttontoggle'>Toggle</button>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Copyright © 2019 Tutorial Republic</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <a href="#" class="text-dark">Terms of Use</a> 
+                    <span class="text-muted mx-2">|</span> 
+                    <a href="#" class="text-dark">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+  
+
+    <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
