@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <a href="/delete">Delete</a>
+        <a href="/">return back </a>
+        <h1>Thank you for your Business!</h1>
+
+        <h4>we have charged your credit Card for {{request.session.totalcost}}</h4>
+        <h5>you have ordered {{request.session.quantity}} items so far and spend a total
+        {{request.session.totalamount}} with Amadon.com</h5>
+    </body>
+</html>

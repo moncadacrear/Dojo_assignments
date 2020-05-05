@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Hello {{user.first_name}}! Read about this trip!</h1>
+        <a href="/dashboard">Dashboard</a><br>
+        <a href="/logout">Logout</a>
+
+        <h3>{{trip_info.destination}}</h3>
+        <h5>Start Date:{{trip_info.start_date}}</h5>
+        <h5>End Date:{{trip_info.end_date}}</h5>
+        <h5>Created on:{{trip_info.created_at}}</h5>
+        <h5>Last Updated:{{trip_info.updated_at}}</h5>
+        <h5>Plan:{{trip_info.plan}}</h5>
+        <h5>Created by:{{user.first_name}}</h5>
+
+
+    </body>
+</html>

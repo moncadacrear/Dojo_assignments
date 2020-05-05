@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for title in all_books %}
+                <tr>
+                    <td>{{title.id}}</td>
+                    <td>{{title.title}}</td>
+                    <td><a href="books/{{title.id}}"> view</a> </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <h1>Add a Book</h1>
+
+        <form action="/addbook" method="POST">
+            {% csrf_token %}
+            <label for="title">Title</label>
+            <input type="text" name="title"><br>
+            <label for="desc">Description</label>
+            <textarea name="desc" placeholder="Description"></textarea><br>
+            <button>add</button>
+        </form>
+        <a href="/authors">check out all the authors</a>
+
+    </body>
+</html>

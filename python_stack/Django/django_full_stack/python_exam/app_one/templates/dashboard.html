@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Hello {{user.first_name}}</h1>   <a href="/logout">Logout</a> | <a href="/new_trip">Create a new trip </a>
+
+
+        <h2>Your trips:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Destination</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Plan</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for trips in all_trips %}
+                <tr>
+                    <td><a href="trips/{{trips.id}}">{{trips.destination}} </a> </td>
+                    <td>{{trips.start_date}}</td>
+                    <td>{{trips.end_date}}</td>
+                    <td>{{trips.plan}}</td>
+                    <td><a href="remove/{{trips.id}}">Remove</a> |<a href="/edit/{{trips.id}}">Edit</a> </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+    </body>
+</html>

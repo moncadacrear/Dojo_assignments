@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>   
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>add a new power to the lexicon of powers</h1> 
+        <form action="/create_power" method="POST">
+            {% csrf_token%}
+            <label for="name">name</label>
+            <input type="text" name = "name">
+            <label for="weakness">name</label>
+            <input type="text" name = "weakness">
+            <select name = "from_ equipment">
+                <option value="false"> False</option>
+                <option value="true"> True </option>
+            </select>
+            <a href="/"></a>
+            <button> add power</button>
+        </form>
+    </body>
+</html>

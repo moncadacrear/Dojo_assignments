@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1> Edit show {{showinfo.id}}</h1>
+        <a href="/shows">GO back </a>
+        <form action="/editshow" method="POST">
+            {% csrf_token %}
+            <label for="title">Title</label>
+            <input type="text" name="title"  placeholder="{{showinfo.title}}"><br>
+            <label for="nextwork">Network</label>
+            <input type="text" name="nextwork" placeholder="{{showinfo.nextwork}}"><br>
+            <label for="release_date">Release Date</label>
+            <input type="date" name="release_date" placeholder="{{showinfo.release_date}}"><br>
+            <label for="description">description</label>
+            <textarea name="description" placeholder="{{showinfo.description}}"></textarea><br>
+            <input type="hidden" name="tvid" value="{{showinfo.id}}">
+            <button>Update the show</button>
+            <a href="/showinfo/{{showinfo.id}}"> Show inormation</a>
+        </form>
+    </body>
+</html>
