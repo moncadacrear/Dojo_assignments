@@ -1,5 +1,6 @@
 import React, { Component, useState } from 'react';
 
+
 class PersonCard extends Component{
     constructor(props){
         super(props);
@@ -18,9 +19,8 @@ class PersonCard extends Component{
                 <h1>{ lastName }, { firstName}  </h1>
                 <h3>Age:{this.state.addonclick +age } </h3>
                 <h3>hair Color:{hairColor}</h3>
-        <button onClick={ this.handleClick}> Birthday {firstName} {lastName}</button>
+                <button className="btn" onClick={ this.handleClick}> Birthday {firstName} {lastName}</button>
             </div>
-
         )
         
     }
