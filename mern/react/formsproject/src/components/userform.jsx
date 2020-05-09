@@ -66,7 +66,7 @@ const UserForm = (props) => {
         if(e.target.value == inputpassword) {
             console.log(`hello my value ${e.target.value} and ${inputpassword}`)
             setConfirmPasswordError('its a match');
-        } else if(e.target.value.length != PasswordVali) {
+        } else if(e.target.value != inputpassword) {
             // console.log(e.target)
             setConfirmPasswordError('it not a match');
         }
@@ -83,7 +83,7 @@ const UserForm = (props) => {
         <form>
             <div>     
                 <label htmlFor ="firstName">First Name</label>
-                <input onChange= {firstnamemassageVali} type ="text" name='firstName'/>
+                <input onChange= {firstnamemassageVali | makechange} type ="text" name='firstName'/>
                 {firstnameError ?<p style={{color:'red'}}>{firstnameError }</p> :''}
             </div>
 
