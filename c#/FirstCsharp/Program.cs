@@ -11,6 +11,7 @@ namespace FirstCsharp
             Console.WriteLine(formattedQoute);
             return formattedQoute;
         }
+        
         static void Main(string[] args)
         {
             //Datatypes nameOfVar = assigned value
@@ -210,6 +211,21 @@ namespace FirstCsharp
             Console.WriteLine(entry.Key + " - " + entry.Value);
             Console.WriteLine("this is a shorter method");
             }
+
+
+
+            double floatNum = 8.912121251256546456234123414534123;
+            int intnumber =(int)floatNum;
+            Console.WriteLine(intnumber);
+
+
+
+            //Converting an integer to a string
+            int seven = 7;
+            string numAsString = seven.ToString(); //Evaluates as "7"
+            Console.WriteLine(numAsString);
+            // Console.WriteLine(seven.GetType());
+
 
 
 
