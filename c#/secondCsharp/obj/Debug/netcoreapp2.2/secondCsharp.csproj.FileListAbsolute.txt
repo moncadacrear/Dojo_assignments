@@ -1,0 +1,11 @@
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/secondCsharp/bin/Debug/netcoreapp2.2/secondCsharp.deps.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/secondCsharp/bin/Debug/netcoreapp2.2/secondCsharp.runtimeconfig.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/secondCsharp/bin/Debug/netcoreapp2.2/secondCsharp.runtimeconfig.dev.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/secondCsharp/bin/Debug/netcoreapp2.2/secondCsharp.dll
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/secondCsharp/bin/Debug/netcoreapp2.2/secondCsharp.pdb
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/secondCsharp/obj/Debug/netcoreapp2.2/secondCsharp.csprojAssemblyReference.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/secondCsharp/obj/Debug/netcoreapp2.2/secondCsharp.csproj.CoreCompileInputs.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/secondCsharp/obj/Debug/netcoreapp2.2/secondCsharp.AssemblyInfoInputs.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/secondCsharp/obj/Debug/netcoreapp2.2/secondCsharp.AssemblyInfo.cs
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/secondCsharp/obj/Debug/netcoreapp2.2/secondCsharp.dll
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/secondCsharp/obj/Debug/netcoreapp2.2/secondCsharp.pdb

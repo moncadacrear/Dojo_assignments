@@ -1,0 +1,11 @@
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/collectionsPractice/bin/Debug/netcoreapp2.2/collectionsPractice.deps.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/collectionsPractice/bin/Debug/netcoreapp2.2/collectionsPractice.runtimeconfig.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/collectionsPractice/bin/Debug/netcoreapp2.2/collectionsPractice.runtimeconfig.dev.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/collectionsPractice/bin/Debug/netcoreapp2.2/collectionsPractice.dll
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/collectionsPractice/bin/Debug/netcoreapp2.2/collectionsPractice.pdb
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/collectionsPractice/obj/Debug/netcoreapp2.2/collectionsPractice.csprojAssemblyReference.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/collectionsPractice/obj/Debug/netcoreapp2.2/collectionsPractice.csproj.CoreCompileInputs.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/collectionsPractice/obj/Debug/netcoreapp2.2/collectionsPractice.AssemblyInfoInputs.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/collectionsPractice/obj/Debug/netcoreapp2.2/collectionsPractice.AssemblyInfo.cs
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/collectionsPractice/obj/Debug/netcoreapp2.2/collectionsPractice.dll
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/collectionsPractice/obj/Debug/netcoreapp2.2/collectionsPractice.pdb

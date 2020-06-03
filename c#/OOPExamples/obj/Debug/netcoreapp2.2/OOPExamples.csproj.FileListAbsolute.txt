@@ -1,0 +1,11 @@
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/OOPExamples/bin/Debug/netcoreapp2.2/OOPExamples.deps.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/OOPExamples/bin/Debug/netcoreapp2.2/OOPExamples.runtimeconfig.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/OOPExamples/bin/Debug/netcoreapp2.2/OOPExamples.runtimeconfig.dev.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/OOPExamples/bin/Debug/netcoreapp2.2/OOPExamples.dll
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/OOPExamples/bin/Debug/netcoreapp2.2/OOPExamples.pdb
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/OOPExamples/obj/Debug/netcoreapp2.2/OOPExamples.csprojAssemblyReference.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/OOPExamples/obj/Debug/netcoreapp2.2/OOPExamples.csproj.CoreCompileInputs.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/OOPExamples/obj/Debug/netcoreapp2.2/OOPExamples.AssemblyInfoInputs.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/OOPExamples/obj/Debug/netcoreapp2.2/OOPExamples.AssemblyInfo.cs
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/OOPExamples/obj/Debug/netcoreapp2.2/OOPExamples.dll
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/OOPExamples/obj/Debug/netcoreapp2.2/OOPExamples.pdb

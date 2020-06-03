@@ -1,0 +1,11 @@
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Fundamentals1/bin/Debug/netcoreapp2.2/Fundamentals1.deps.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Fundamentals1/bin/Debug/netcoreapp2.2/Fundamentals1.runtimeconfig.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Fundamentals1/bin/Debug/netcoreapp2.2/Fundamentals1.runtimeconfig.dev.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Fundamentals1/bin/Debug/netcoreapp2.2/Fundamentals1.dll
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Fundamentals1/bin/Debug/netcoreapp2.2/Fundamentals1.pdb
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Fundamentals1/obj/Debug/netcoreapp2.2/Fundamentals1.csprojAssemblyReference.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Fundamentals1/obj/Debug/netcoreapp2.2/Fundamentals1.csproj.CoreCompileInputs.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Fundamentals1/obj/Debug/netcoreapp2.2/Fundamentals1.AssemblyInfoInputs.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Fundamentals1/obj/Debug/netcoreapp2.2/Fundamentals1.AssemblyInfo.cs
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Fundamentals1/obj/Debug/netcoreapp2.2/Fundamentals1.dll
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Fundamentals1/obj/Debug/netcoreapp2.2/Fundamentals1.pdb

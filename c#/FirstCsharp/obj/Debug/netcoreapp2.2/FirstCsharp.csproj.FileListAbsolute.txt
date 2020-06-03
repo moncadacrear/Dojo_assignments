@@ -1,0 +1,11 @@
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/FirstCsharp/bin/Debug/netcoreapp2.2/FirstCsharp.deps.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/FirstCsharp/bin/Debug/netcoreapp2.2/FirstCsharp.runtimeconfig.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/FirstCsharp/bin/Debug/netcoreapp2.2/FirstCsharp.runtimeconfig.dev.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/FirstCsharp/bin/Debug/netcoreapp2.2/FirstCsharp.dll
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/FirstCsharp/bin/Debug/netcoreapp2.2/FirstCsharp.pdb
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/FirstCsharp/obj/Debug/netcoreapp2.2/FirstCsharp.csprojAssemblyReference.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/FirstCsharp/obj/Debug/netcoreapp2.2/FirstCsharp.csproj.CoreCompileInputs.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/FirstCsharp/obj/Debug/netcoreapp2.2/FirstCsharp.AssemblyInfoInputs.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/FirstCsharp/obj/Debug/netcoreapp2.2/FirstCsharp.AssemblyInfo.cs
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/FirstCsharp/obj/Debug/netcoreapp2.2/FirstCsharp.dll
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/FirstCsharp/obj/Debug/netcoreapp2.2/FirstCsharp.pdb
