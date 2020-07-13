@@ -26,12 +26,19 @@ namespace OOPExamples
             Shopper shopper1 = new Shopper("patrick");
             Shopper shopper2 = new Shopper("levi");
             Shopper shopper3 = new Shopper("monica");
-            GroceryStore albertandHisSons =  new GroceryStore
-            ("albertsons", new System.Collections.Generic.List<Shopper>
+            GroceryStore albertandHisSons =  new GroceryStore(
+            "albertsons", new List<Shopper>(){shopper1}
             );
 
 
+
+
+
             shopper1.EnterStore(albertandHisSons);
+            shopper2.EnterStore(albertandHisSons);
+            shopper3.EnterStore(albertandHisSons);
+
+            
             // Console.WriteLine(shopper1.Name);
         }
     }

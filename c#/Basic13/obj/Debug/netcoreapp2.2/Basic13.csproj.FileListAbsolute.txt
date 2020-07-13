@@ -1,0 +1,11 @@
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Basic13/bin/Debug/netcoreapp2.2/Basic13.deps.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Basic13/bin/Debug/netcoreapp2.2/Basic13.runtimeconfig.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Basic13/bin/Debug/netcoreapp2.2/Basic13.runtimeconfig.dev.json
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Basic13/bin/Debug/netcoreapp2.2/Basic13.dll
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Basic13/bin/Debug/netcoreapp2.2/Basic13.pdb
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Basic13/obj/Debug/netcoreapp2.2/Basic13.csprojAssemblyReference.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Basic13/obj/Debug/netcoreapp2.2/Basic13.csproj.CoreCompileInputs.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Basic13/obj/Debug/netcoreapp2.2/Basic13.AssemblyInfoInputs.cache
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Basic13/obj/Debug/netcoreapp2.2/Basic13.AssemblyInfo.cs
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Basic13/obj/Debug/netcoreapp2.2/Basic13.dll
+/Users/ivanmoncada/Documents/Dojo_Assignment /c#/Basic13/obj/Debug/netcoreapp2.2/Basic13.pdb
