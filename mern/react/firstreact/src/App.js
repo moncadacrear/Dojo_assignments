@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useState} from 'react';
 import './App.css';
 import ToDolist from "./components/ToDolist"
 import Header from "./components/Header"
@@ -7,12 +7,35 @@ import MyNewComponent from "./components/MyNewComponent"
 import NewPersonCard from "./components/NewPersonCard"
 import UserForm from "./components/UserForm"
 
+
+// another way to do forms
+import NewForm from "./components/NewForm"
+import DisplayForm from "./components/DisplayForm"
+
 function App() {
+  const [state , setState] = useState({
+    firstname: "",
+    lastname: "",
+    email:"",
+    password:"",
+    confirmpassword: ""
+  });
+
+
   return (
     <div className="App">
-      <UserForm>
-        
-      </UserForm>
+      {/* the way i did form on the first try */}
+      {/* <UserForm/> */}
+
+
+
+
+      {/* another way to do forms  */}
+      <NewForm inputs = {state} setInputs ={setState}/>
+      <DisplayForm data = {state}/>
+      {/* another way to do form  */}
+
+
 
 
 

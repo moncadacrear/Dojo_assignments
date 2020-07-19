@@ -2,7 +2,7 @@ import React , {useState} from "react"
 
 
 
-const UserForm = () =>{
+const UserForm = (props) =>{
     const[firstname , SetFirstname] = useState ("");
     const[lastname , setLastname] = useState ("");
     const[email , setEmail] = useState ("")
@@ -17,27 +17,28 @@ const UserForm = () =>{
 
 
 
+
     return (
         <form>
             <div>
                 <label> FirstName  </label>
-                <input type= "text" onChange ={ (e) => SetFirstname(e.target.value)}  />
+                <input type="text"  name="firstname" onChange ={ (e) => SetFirstname(e.target.value)}  />
             </div>
             <div>
                 <label>LastName </label>
-                <input type = "text" onChange = { e  => setLastname(e.target.value)}/>
+                <input type = "text" name = "lastname" onChange = { e  => setLastname(e.target.value)}/>
             </div>
             <div> 
                 <label> Email </label>
-                <input type ="email" onChange = { e => setEmail (e.target.value)} />
+                <input type ="email"  name = "email" onChange = { e => setEmail (e.target.value)} />
             </div>
             <div>
                 <label>Password</label>
-                <input type = "password" onChange = {e => setPassowrd(e.target.value) }/>
+                <input type = "password" name = "password" onChange = {e => setPassowrd(e.target.value) }/>
             </div>
             <div>
                 <label>Confirm password</label>
-                <input type = "password"  onChange = { e => setConfirmPassword(e.target.value)}/>
+                <input type = "password" name= "confirmpassword" onChange = { e => setConfirmPassword(e.target.value)}/>
             </div>
 
 
