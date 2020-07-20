@@ -27,7 +27,7 @@ const UserForm = (props) => {
         
     const firstnamemassageVali = (e) => {
         setInputs (e.target.value);
-        if(e.target.value.length < 2) {
+        if(e.target.value.length < 3) {
             setFirstnameError('First name must be at least 2 characters');
         } else if(e.target.value.length < 3) {
             setFirstnameError("Right amount of characters now")

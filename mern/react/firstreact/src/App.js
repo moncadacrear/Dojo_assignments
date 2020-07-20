@@ -8,6 +8,7 @@ import NewPersonCard from "./components/NewPersonCard"
 import UserForm from "./components/UserForm"
 
 
+
 // another way to do forms
 import NewForm from "./components/NewForm"
 import DisplayForm from "./components/DisplayForm"
@@ -30,7 +31,7 @@ function App() {
 
 
 
-      {/* another way to do forms  */}
+      {/* another way to do forms   */}
       <NewForm inputs = {state} setInputs ={setState}/>
       <DisplayForm data = {state}/>
       {/* another way to do form  */}

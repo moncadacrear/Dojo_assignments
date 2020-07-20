@@ -1,4 +1,6 @@
-import React from 'react'
+import React,{useState} from 'react'
+
+
 
 
 const DisplayForm = (props) => {
@@ -13,7 +15,7 @@ const DisplayForm = (props) => {
             <p>First name:{firstname}</p>
             <p>Last name:{lastname}</p>
             <p> email : {email}</p>
-            <p> passowrd : {password}</p>
+            <p> password : {password}</p>
             <p> confirmpassword : {confirmpassword}</p>
         </div>
 
