@@ -22,7 +22,7 @@ function App() {
     confirmpassword: ""
   });
 
-
+  const Grocerieslist = ["pearls","thyme", "cremini mushrooms"]
   return (
     <div className="App">
       {/* the way i did form on the first try */}
