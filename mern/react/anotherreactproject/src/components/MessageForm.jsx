@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
-    
-    
+
+
 const MessageForm = (props) => {
     const [msg, setMsg] = useState("");
-    
+
     const handleSubmit = (e) => {
         e.preventDefault();
         props.onNewMessage(msg)
         // what should we do with the message?
     };
-    
+
+
     return (
         <form onSubmit={ handleSubmit }>
             <h1>Send Message</h1>
@@ -18,5 +19,6 @@ const MessageForm = (props) => {
         </form>
     );
 };
-    
+
+
 export default MessageForm;
