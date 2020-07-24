@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Groceries from './components/Practice';
@@ -9,7 +9,8 @@ import BoxesDisplay from './components/BoxesComponents/BoxesDisplay';
 import BoxForm from './components/BoxesComponents/BoxForm';
 import Todolist from './components/todolist/ToDolist';
 import DisplayToDolist from './components/todolist/DisplayToDolist';
-import Pokemon from './components/PokemonApi/Pokemon'
+import Pokemon from './components/PokemonApi/DisplayPokemon'
+import axios from 'axios'
 
 
 
@@ -25,7 +26,28 @@ function App() {
   //   setCurrentMsg(newMessage);
   // }
 
-  const [list, setList ] = useState([])
+  // const [list, setList ] = useState([])
+
+
+  const[pokemon,setPokemon] = useState()
+
+
+
+  
+
+
+
+  useEffect = ()=>{
+    axios.get("https://pokeapi.co/api/v2/pokemon/")
+    .then(response => {
+        console.log(response);
+        console.log(response.data.results)
+    })
+    .catch(err =>{
+        console.log(err);
+    })
+}
+
 
   
 
@@ -33,8 +55,6 @@ function App() {
   return (
     <div className="App">
 
-
-      <Pokemon/>
 
       {/* <Boxes/> */}
 
