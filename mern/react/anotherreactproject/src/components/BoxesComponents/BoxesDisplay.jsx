@@ -1,8 +1,8 @@
 import React from 'react';
+import Box from './box'
 
 
-
-const BoxDisplay = ({boxes}) =>{
+const BoxDisplay = ({boxes, deleteHandler , colorChangeHandler}) =>{
 
 
     
@@ -12,9 +12,13 @@ const BoxDisplay = ({boxes}) =>{
     return(
         <div>
         { boxes.map((box, idx) =>
-            <div key ={idx} style ={box.style}>
-                <p>color: {box.color}</p>
-                {/* <p> hieght: {box.height}</p> */}
+            <div key ={idx}>
+                <div>
+                    <Box box={box} idx ={idx} 
+                        deleteHandler={deleteHandler}  
+                        colorChangeHandler={colorChangeHandler}
+                    />
+                </div>
             </div>
         )}
         </div>
