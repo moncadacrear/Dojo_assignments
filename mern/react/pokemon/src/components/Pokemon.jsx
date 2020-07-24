@@ -37,7 +37,8 @@ const Pokemon = ({valuepokemon})=>{
     return (
 
         <div>
-            <p>{pokemon.name}</p>
+            
+            <h4>{pokemon.name}</h4>
             <img src={pokemon.sprites.front_default}></img>
 
         </div>
